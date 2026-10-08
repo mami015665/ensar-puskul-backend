@@ -1,0 +1,20 @@
+# Bağımlılıklar
+node_modules/
+
+# Ortam değişkenleri (Şifreler!)
+.env
+.env.*
+
+# Log dosyaları
+*.log
+npm-debug.log*
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+
+# Frontend (ayrı klasörde, gerek yok)
+app/
+app/node_modules/
+app/.expo/
+app/dist/
